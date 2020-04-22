@@ -20,7 +20,7 @@ $headers[] = 'Sec-Fetch-Mode: cors';
 $headers[] = 'Sec-Fetch-Dest: empty';
 $headers[] = 'Referer: https://www.sudebe.com/';
 $headers[] = 'Accept-Language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7';
-$headers[] = 'Cookie: PHPSESSID=68ddf5b51063c868b29ad23d1bbe2cc1; ref=fzn7; _ga=GA1.2.501291031.1587521726; _gid=GA1.2.1306774346.1587521727; __gads=ID=e59fbe209ab56955:T=1587521811:S=ALNI_MbGOjmaU9mY9797Y4YTfj4Ts3oBrw; cookieconsent_status=dismiss; _gat_gtag_UA_155121126_1=1';
+$headers[] = 'Cookie: PHPSESSID=68ddf5b51063c868b29ad23d1bbe2cc1; ref=Fzn7; _ga=GA1.2.501291031.1587521726; _gid=GA1.2.1306774346.1587521727; __gads=ID=e59fbe209ab56955:T=1587521811:S=ALNI_MbGOjmaU9mY9797Y4YTfj4Ts3oBrw; cookieconsent_status=dismiss; _gat_gtag_UA_155121126_1=1';
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
  
